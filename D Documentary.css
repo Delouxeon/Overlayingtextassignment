@@ -1,0 +1,65 @@
+nav{
+    height: 100px;
+    background-color: rgb(82, 1, 1);
+    width:100vw;
+    top:0;
+}
+.BottomNav{
+    height: 80px;
+    background-color: rgb(138, 136, 136);
+    width:100vw;
+    bottom:0;
+    justify-content:space-evenly;
+}
+.overlay{
+    position: absolute; 
+    top:50%;
+    right: 150px;
+    font-size:30px;
+    font-family: 'Pacifico', cursive;
+    src:url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+}
+ul{
+    display: inline-flex;
+    list-style-type:none;
+}
+li{
+    justify-content:space-around;
+    align-self:center;
+    margin: 10vw;
+}
+ul,a{
+    text-decoration:none;
+    font-family: 'Pacifico', cursive;
+    src:url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    font-size:20px;
+    color:#000000;
+}
+a:hover{
+    color: rgb(82, 1, 1);
+}
+.name{
+    color:rgb(168, 233, 39);
+}
+nav,h1{
+    font-size:50px;
+    display:flex;
+    align-self:center;
+    justify-content: space-around;
+    font-family:'Festive', cursive;
+    src:url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+}
+img{
+    height:70vh;
+    width:100vw;
+    position:relative;
+}
+p{
+    color:gray;
+    font-family: 'Pacifico', cursive;
+    src:url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    font-size:25px;
+}
+strong{
+    color: maroon;
+}
